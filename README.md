@@ -25,10 +25,31 @@ Takes care of two errors but
 
 ![Result_FIxed_SOC](https://user-images.githubusercontent.com/108146924/192443910-fa04fee7-b196-4f3a-a0a4-011e8cfa3441.jpg)
 
+#### RMS Errors in percentage
+
+rms(errWLS) = 0.3775
+
+rms(errWTLS) = 0.6633
+
+rms(errTLS) = 0.3396
+
+rms(errAWTLS) =  0.3199
+
 
 ### Result when we use decresing total capacity over the algoritm update index.
 
 ![Result_Variable_SOC](https://user-images.githubusercontent.com/108146924/192444027-51e8529b-2f3a-4846-bec7-b0abd495f0de.jpg)
+
+#### RMS Errors in percentage
+
+rmsErrWLS =    0.4599
+
+rmsErrWTLS =    0.9993
+
+rmsErrTLS =    0.5010
+
+rmsErrAWTLS =    0.5273
+
 
 
 ## 2. State of Charge(SOC) Estimation
