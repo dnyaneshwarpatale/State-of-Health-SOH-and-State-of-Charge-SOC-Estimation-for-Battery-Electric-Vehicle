@@ -19,7 +19,7 @@ Takes care of two errors but
 
 ### Weighted Total Least Square(WTLS) takes care of all above disadvantages of of TLS but it requires too much of compurtational power
 
-### So, Aweraged weighted least square(AWTLS) can be used with advantaged of all methods:
+### So, Averaged weighted least square(AWTLS) can be used with advantaged of all methods:
 
 ### Result when Total capacity is constant throughout the time.
 
@@ -30,4 +30,29 @@ Takes care of two errors but
 
 ![Result_Variable_SOC](https://user-images.githubusercontent.com/108146924/192444027-51e8529b-2f3a-4846-bec7-b0abd495f0de.jpg)
 
+
+## 2. State of Charge(SOC) Estimation
+Enhanced Self-correcting(ESC) Behavioral model is considered while modelling the battery or cell.
+Model consist practical parameters like temperature, hysteresis effect.
+To form such model data from practical tests are requires which is taken from Department of Electrical and Computer Engineering, University of Colorado at Colorado Springs,1420 Austin Bluffs Parkway, Colorado Springs, USA
+
+
+### Kalman Filter estimation can be used to estimation when we are considering linear systems but it fails for non -linear system so we are using Extended Kalman Filter(EKF).
+
+EKF makes two asssumptions whhile adapting general sequential inferenve equation to a nonlinear system
+
+1. When computing estimates of the output of non-linear funstion EKF assumes expctation of function equals to functio of expectation which is not true in practical
+
+2. When computing covariance estimates, EKF uses Taylor-series expansion to linearise the sysyem equations around the presenting point.
+
+
+
+### Results of SOC Estimation 
+
+![Result_SOC](https://user-images.githubusercontent.com/108146924/192445379-5e5cc1b3-3a80-4a1c-9937-518743f41ae9.jpg)
+
+
+### Errors at SOC Estimation
+
+![Result_Errors](https://user-images.githubusercontent.com/108146924/192445475-f12f1532-8f2d-4cab-8d42-bcde79fa1cf3.jpg)
 
