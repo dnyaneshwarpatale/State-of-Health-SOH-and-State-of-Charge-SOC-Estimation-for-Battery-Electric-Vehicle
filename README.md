@@ -52,6 +52,8 @@ rmsErrAWTLS =    0.5273
 
 
 
+
+
 ## 2. State of Charge(SOC) Estimation
 Enhanced Self-correcting(ESC) Behavioral model is considered while modelling the battery or cell.
 Model consist practical parameters like temperature, hysteresis effect.
