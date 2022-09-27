@@ -45,7 +45,7 @@ EKF makes two asssumptions whhile adapting general sequential inferenve equation
 
 2. When computing covariance estimates, EKF uses Taylor-series expansion to linearise the sysyem equations around the presenting point.
 
-
+Further EKF have Prediction steps and model correction steps in its model
 
 ### Results of SOC Estimation 
 
